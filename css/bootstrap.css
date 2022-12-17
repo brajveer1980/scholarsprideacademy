@@ -198,7 +198,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #686868;
+  color: #004efd;
   text-decoration: none;
 }
 a:hover,
@@ -3680,6 +3680,15 @@ a.thumbnail.active {
   border-color: #bce8f1;
   color: #3a87ad;
 }
+.mandatory-info {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-top: px solid #eeeeee;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  color: #eeeeee;
+}
+
 .alert-info hr {
   border-top-color: #a6e1ec;
 }
@@ -5374,7 +5383,7 @@ th {
  color: #040404;
 }
 .table > tbody > tr:nth-of-type(odd) {
-	background:#e1e2e3;
+	background:#efddbe;/* old valued e1e2e3*/
 }
 .table > tbody > tr:nth-of-type(even) {
 	background:#f1f1f1;
